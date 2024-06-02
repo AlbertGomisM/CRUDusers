@@ -1,0 +1,33 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#header {
+  height: 5vw;
+  background-color: #0f0d0d;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+  height: 100vh;
+}
+
+nav {
+  width: 10%;
+  flex-shrink: 0;
+  background: -webkit-linear-gradient(top, #f6cc45, #ee9b38);
+  background: linear-gradient(to bottom, #f6cc45, #ee9b38);
+  color: #0f0d0d;
+}
+
+.outlet {
+  flex-grow: 1;
+  width: 90%;
+  /* text-align: center; */
+  list-style-type: none;
+  background-color: #f2f3f4;
+  font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,36 @@
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .fas{
+    padding: 1vh;
+  }
+  
+
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li {
+    margin: 10px 0;
+  }
+  
+  nav ul li a {
+    color: #0f0d0d;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }

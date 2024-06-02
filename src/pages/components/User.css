@@ -1,0 +1,124 @@
+#general-user-div {
+    text-align: left;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+
+#loading{
+    text-align: center;
+}
+
+#user-detalles-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+#btn-back {
+    all: unset;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+#btn-back:hover {
+    background-color: #333;
+}
+button a {
+    all: unset;
+}
+
+#btn-back:visited{
+    text-decoration: none;
+    all: unset;
+}
+
+#user-detalles {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 50%;
+    background-color: #ffffff;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 30%;
+}
+
+#btn-submit {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 33%;
+    margin-top: 4vh;
+    text-decoration: none;
+}
+
+#btn-submit:hover {
+    background-color: #333;
+    text-decoration: none;
+}
+
+#btn-submit:visited{
+    text-decoration: none;
+}
+
+#buttons-travel{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#btn-anterior{
+    align-self: flex-start;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+    margin-top: 4vh;
+    text-decoration: none;
+}
+
+#btn-siguiente{
+    align-self: flex-end;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+    margin-top: 4vh;
+    text-decoration: none;
+
+}
