@@ -19,11 +19,11 @@ export const Usuarios = () => {
         <table id='table'>
           <thead>
             <tr>
-              <th>Nombre</th>
+              <th className='rounded-left'>Nombre</th>
               <th>Apellido</th>
               <th>Correo</th>
               <th>Rol</th>
-              <th>Action</th>
+              <th className='rounded-right'>Action</th>
             </tr>
           </thead>
           <tbody>
